@@ -6,7 +6,7 @@ provider "google" {
 }
 
 data "google_project_organization_policy" "policy" {
-  project    = "ashwinknaik-314910"
+  project    = "airline1-sabre-wolverine"
   constraint = "constraints/storage.publicAccessPrevention"
 }
 
