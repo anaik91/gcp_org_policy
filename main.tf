@@ -1,3 +1,6 @@
+variable access_token {}
+
+
 provider "google" {
   access_token = var.access_token
 }
